@@ -1,0 +1,16 @@
+baseURL = 'http://dbt.yaelandgabi.org/'
+languageCode = 'he-il'
+defaultContentLanguage = 'he'
+title = 'DBT מיומניות'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+[languages]
+  [languages.he]
+    disabled = false
+    languageCode = 'he-il'
+    languageDirection = 'rtl'
+    languageName = 'hebrew' 
+    title = 'DBT מיומניות'
+    weight = 0
+
+[params]
+  text_color = "mid-gray"

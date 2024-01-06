@@ -1,0 +1,157 @@
+baseURL = 'http://dbt.yaelandgabi.org/'
+languageCode = 'he-il'
+defaultContentLanguage = 'he'
+title = 'DBT מיומניות'
+theme = 'hugo-stellar-theme'
+[languages]
+  [languages.he]
+    disabled = false
+    languageCode = 'he-il'
+    languageDirection = 'rtl'
+    languageName = 'hebrew' 
+    title = 'DBT מיומניות'
+    weight = 0
+
+
+[params]
+  [params.header]
+    title = "DBT קבוצת מיומנויות"
+    description = ''
+    image = "images/logo.svg"
+
+  [[params.navigation]]
+    name = "מידע"
+    href = "#information"
+
+  [[params.navigation]]
+    name = "הקבוצה שלנו"
+    href = "#ourgroup"
+
+  [[params.navigation]]
+    name = "אודותינו"
+    href = "#about"
+
+
+  [params.information]
+    title = "קבוצת מיומנויות DBT (Dialectical Behavioral Therapy)"
+    description = "lskdjflkdsjlfdsjfldskjldskjfsdlkjdslfkdsjfd lkjkj"
+    image = "images/pic01.jpg"
+    [[params.information.action]]
+      buttontext = "Learn More"
+      href = "generic.html"
+
+
+  [[params.section]]
+    id = "information"
+    title = "מידע"
+    description = "take this from info.md"
+
+  [[params.section]]
+    id = "ourgroup"
+    title = "הקבוצה שלנו"
+    description = ""
+    
+    # the picture is stored at static/images/
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "Ipsum consequat"
+        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        icon = "fa-code"
+
+      [[params.section.feature]]
+        title = "Amed sed feugiat"
+        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        icon = "fa-copy"
+
+      [[params.section.feature]]
+        title = "Dolor nullam"
+        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        icon = "fa-diamond"
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+
+  [[params.section]]
+    id = "about"
+    title = "אודותינו"
+    description = "התוכן של אודותינו - לקחת מקובץ - about.md"
+
+    [params.section.content]
+      enable = true
+      text = "Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia."
+
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+
+
+  [[params.section]]
+    id = "links"
+    title = "קישורים שימושיים"
+    description = """
+    סרטונים של רוית https://youtube.com/
+    סרטונים של רוית https://youtube.com/
+    סרטונים של רוית https://youtube.com/
+    """
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Get Started"
+        buttonUrl = "generic.html"
+        customClass = "special"
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+
+  [params.footer]
+    enable = true
+    title = " sed mauris"
+    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+
+    second_title = "Etiam feugiat"
+    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
+    phone = "(000) 000-0000 x 0000"
+    email = "information@untitled.tld"
+
+    [[params.footer.action]]
+      href = "generic.html"
+      buttontext = "Learn More"
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        link = "#"
+
+      [[params.footer.social]]
+        title = "Facebook"
+        icon = "fa-facebook"
+        link = "#"
+
+      [[params.footer.social]]
+        title = "Instagramm"
+        icon = "fa-instagram"
+        link = "#"
+
+      [[params.footer.social]]
+        title = "Dribbble"
+        icon = "fa-dribbble"
+        link = "#"
+
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fa-envelope"
+        link = "#"
+
+    # copyright
+    [params.footer.copyright]
+      enable = true
+      text = "2024 כל הזכויות שמורות ליעל סטמפלר וגבי ברקאי"
