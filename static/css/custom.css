@@ -2,3 +2,10 @@ article *  {
      font-size: 16px;
      text-align: justify;
 }
+
+details[open] > summary:after {
+    display: inline;
+}
+details[close] > summary {
+    display: inline;
+}
