@@ -119,6 +119,13 @@ Dialectical Behavioral Therapy, טיפול התנהגותי דיאלקטי.
     ![Ravit image](Yaeli-site/content/Ravit.png)
 
 
+    {{< figure src="content/Ravit.png" height="200px" width="200px" class="about-img" >}}
+
+
+
+
+
+
 
 
 
