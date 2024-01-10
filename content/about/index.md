@@ -4,6 +4,8 @@ date: 2023-11-19T12:16:09+02:00
 draft: false
 ---
 
+# למי מיועדת הקבוצה? 
+
 {{< figure src="images/yael.png" height="200px" width="200px" class="fl" >}}
 
 # יעל סטמפלר – פסיכולוגית קלינית
