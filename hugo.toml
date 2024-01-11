@@ -21,7 +21,7 @@ theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
 [params]
   custom_css = ["css/custom.css"]
-  text_color = "navy"
+  text_color = "mid-gray"
   author = ""
   favicon = ""
   site_logo = ""
