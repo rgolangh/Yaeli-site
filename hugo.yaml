@@ -1,4 +1,7 @@
 baseURL: http://dbt.yaelandgabi.org/
+title: |-
+  קבוצת מיומנויות DBT
+  בהנחיית ד"ר גבי ברקאי ויעל סטמפלר
 defaultContentLanguage: he
 languageCode: he-il
 languages:
@@ -8,11 +11,6 @@ languages:
         languageDirection: rtl
         languageName: hebrew
         weight: 0
-markup:
-    goldmark:
-        renderer:
-            hardWraps: true
-            unsafe: true
 menus:
     footer:
         - name: Terms
@@ -50,6 +48,9 @@ sitemap:
     priority: 0.5
 theme:
     - github.com/theNewDynamic/gohugo-theme-ananke
-title: |-2
-  קבוצת מיומנויות
-  בהנחיית ד"ר גבי ברקאי ויעל סטמפלר
+markup:
+    goldmark:
+        renderer:
+            hardWraps: true
+            unsafe: true
+
