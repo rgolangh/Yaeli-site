@@ -117,7 +117,12 @@ Dialectical Behavioral Therapy, טיפול התנהגותי דיאלקטי.
 לינק לעמוד הפייסבוק "<a href="https://www.facebook.com/Ph.D.ravitmaromtal/" target="_blank">עזרה בתרגול מיומנויות DBT</a>" של הפסיכולוגית הקלינית דר' רוית מרום טל
 
 
-    {{< figure src="content/Ravit.png" height="200px" width="200px" class="about-img" >}}
+{{< figure src="content/Ravit.png" height="200px" width="200px" class="about-img" >}}
+
+{{< figure src="about/images/Ravit image.png" height="200px" width="200px" class="about-img" >}}
+
+{{< figure src="images/yael.png" height="200px" width="200px" class="about-img" >}}
+
 
 
 
