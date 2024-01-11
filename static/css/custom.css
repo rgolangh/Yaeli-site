@@ -10,7 +10,13 @@ details[close] > summary {
     display: inline;
 }
 
+/* for about page */
 .about-img {
     margin-right: -260px;
     float: right;
+}
+
+/* fix the scroll showing on the title next to logo */
+#headertitle {
+    overflow: hidden;
 }

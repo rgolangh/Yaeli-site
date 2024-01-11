@@ -1,0 +1,55 @@
+baseURL: http://dbt.yaelandgabi.org/
+defaultContentLanguage: he
+languageCode: he-il
+languages:
+    he:
+        disabled: false
+        languageCode: he-il
+        languageDirection: rtl
+        languageName: hebrew
+        weight: 0
+markup:
+    goldmark:
+        renderer:
+            hardWraps: true
+            unsafe: true
+menus:
+    footer:
+        - name: Terms
+          pageRef: /terms
+          weight: 10
+        - name: Privacy
+          pageRef: /privacy
+          weight: 20
+    main:
+        - name: מידע
+          pageRef: /
+          params:
+            class: black
+          pre: <i clss="black fa-solid fa-code"></i>
+          weight: 10
+        - name: הקבוצה שלנו
+          pageRef: /services
+          weight: 20
+        - name: אודות
+          pageRef: /about
+          weight: 30
+params:
+    author: ""
+    background_color_class: bg-washed-red
+    custom_css:
+        - css/custom.css
+    description: The last theme you'll ever need. Maybe.
+    favicon: images/logo.png
+    recent_posts_number: 3
+    site_logo: images/logo.png
+    text_color: mid-gray
+sitemap:
+    changefreq: monthly
+    filename: sitemap.xml
+    priority: 0.5
+theme:
+    - github.com/theNewDynamic/gohugo-theme-ananke
+title: |-2
+  קבוצת מיומנויות
+  בהנחיית ד"ר גבי ברקאי ויעל סטמפלר
