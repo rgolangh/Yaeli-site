@@ -34,7 +34,7 @@ menus:
           weight: 30
 params:
     author: ""
-    background_color_class: bg-lightest-blue
+    background_color_class: #ecf2f9
     custom_css:
         - css/custom.css
     description: The last theme you'll ever need. Maybe.
