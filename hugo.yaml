@@ -20,15 +20,6 @@ menus:
           pageRef: /privacy
           weight: 20
     main:
-        - name: מידע
-          pageRef: /
-          params:
-            class: black
-          pre: <i clss="black fa-solid fa-code"></i>
-          weight: 10
-        - name: הקבוצה שלנו
-          pageRef: /services
-          weight: 20
         - name: אודות
           pageRef: /about
           weight: 30
