@@ -4,8 +4,7 @@ date: 2024-01-06 19:19
 draft: false
 ---
 
-**האתר בבנייה**
-![under construction](/content/underconstruction.png)
+**האתר בבנייה** ![under construction](/content/underconstruction.png)
 <br>
 <br>
 
