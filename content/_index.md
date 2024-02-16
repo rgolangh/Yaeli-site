@@ -6,7 +6,7 @@ draft: false
 
 **האתר בבנייה**
 
- [construction](/static/images/under construction.png)!
+ {{< figure width="150" src="static/images/under construction.png" class="fl about-img" >}}
 
 
 <br>
