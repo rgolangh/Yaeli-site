@@ -7,7 +7,7 @@ draft: false
 **האתר בבנייה**
 
 
-   (/content/under construction.png)[under construction]!
+   (content/under construction.png)[under construction]!
 
 <br>
 <br>
