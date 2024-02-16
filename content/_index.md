@@ -6,13 +6,8 @@ draft: false
 
 **האתר בבנייה**
 
-  ![src="content/under construction.png"]
 
-   ![under construction](/content/under construction.png)
-   
-   ![under construction](/content/under construction.png)
-
-
+   (/content/under construction.png)[under construction]!
 
 <br>
 <br>
